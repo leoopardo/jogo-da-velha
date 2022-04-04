@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    background-color: rgb(3, 79, 109);
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#tabuleiro {
+    max-width: 40px;
+    min-width: 408px;
+    background-color: rgba(71, 197, 247, 0.623);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-right: 5%;
+}
+
+#casa {
+    background-color: rgb(3, 79, 109);
+    height: 130px;
+    width: 130px;
+    font-family: cursive;
+    font-size: 100px;
+    color:rgba(71, 197, 247, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+
+}
+
+#reset {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(71, 197, 247, 0.623);
+    border-radius: 50%;
+    font-family: cursive;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
