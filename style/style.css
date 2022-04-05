@@ -1,47 +1,80 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;    
+}
+#score p {
+    font-size: 200%;
+    color: rgba(71, 197, 247, 0.623);
+    font-weight: 900;
+}
+#X,
+#O{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 150%;
 }
 
+#score{
+    height: 20%;
+    width: 30%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+}
 .page{
     background-color: rgb(3, 79, 109);
     height: 900px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 }
-
 #tabuleiro {
-    max-width: 40px;
-    min-width: 408px;
+    max-width: 415px;
+    min-width: 415px;
     background-color: rgba(71, 197, 247, 0.623);
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    margin-right: 5%;
 }
 
-#casa {
+#casa0,
+#casa1,
+#casa2,
+#casa3,
+#casa4,
+#casa5,
+#casa6,
+#casa7,
+#casa8,
+#casa9{
     background-color: rgb(3, 79, 109);
     height: 130px;
     width: 130px;
-    font-family: cursive;
     font-size: 100px;
     color:rgba(71, 197, 247, 0.623);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    border: 0px;
+}
 
+#casa0,
+#casa1,
+#casa3,
+#casa4{
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+#casa6,
+#casa7{
+    margin-right: 3%;
 }
 
 #reset {
     width: 150px;
-    height: 150px;
-    background-color: rgba(71, 197, 247, 0.623);
-    border-radius: 50%;
-    font-family: cursive;
+    height: 50px;
+    background-color: rgba(71, 197, 247, 0.623); 
     font-size: 30px;
     display: flex;
     align-items: center;
