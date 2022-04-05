@@ -23,7 +23,6 @@ for (let i = 0; i < velha.casas.length; i++){
         velha.simbolos.mudar_index = (velha.simbolos.mudar_index === 0 ? 1 : 0);
         vitoria()
     });
-    
     reset.addEventListener('click', () => {
         button.innerText = '';
         velha.casas = ['', '', '', '', '', '', '', '', ''];
@@ -53,6 +52,5 @@ function vitoria(){
         }
 }
 
-// RESET
 
 
