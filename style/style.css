@@ -75,10 +75,16 @@
 #casa7{
     margin-right: 3%;
 }
-
-#reset {
-    width: 150px;
-    height: 50px;
+.reset-btns{
+    width: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#reset,
+#reset-score {
+    width: 200px;
+    height: 60px;
     background-color: rgba(71, 197, 247, 0.623); 
     font-size: 30px;
     display: flex;
