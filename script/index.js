@@ -4,7 +4,6 @@ const reset = document.getElementById('reset');
 const resetScore = document.getElementById('reset-score')
 const placarX = document.getElementById('X');
 const placarO = document.getElementById('O');
-
 //  JOGO
 for (let i = 0; i < velha.casas.length; i++){
     const button = document.createElement('button')
@@ -14,10 +13,11 @@ for (let i = 0; i < velha.casas.length; i++){
         if (velha.casas[i] === ''){
         button.innerText = velha.simbolos.opções[velha.simbolos.mudar_index]
         velha.casas[i] = button.innerText;
-        }
         velha.simbolos.mudar_index = (velha.simbolos.mudar_index === 0 ? 1 : 0);
-        velha.vitoria()
+        }
+        velha.vitoria(placarX, placarO)
     });
+    
     reset.addEventListener('click', () =>{
         button.innerText = '';
         velha.casas = ['', '', '', '', '', '', '', '', ''];
@@ -26,7 +26,7 @@ for (let i = 0; i < velha.casas.length; i++){
     resetScore.addEventListener('click', () => {
         placarO.innerText = 0;
         placarX.innerText = 0
-    })
+    });
 }
 
 
