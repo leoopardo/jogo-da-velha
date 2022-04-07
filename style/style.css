@@ -150,14 +150,14 @@
 
 @media (min-width:350px) and (max-width: 450px){
     .page{
-        height: 900px;
+        height: 800px;
     }
     #tabuleiro {
         max-width: 300px;
         min-width: 300px;
         min-height: 300px;
         max-height: 300px; 
-        margin-bottom: 20%;   
+        margin-bottom: 10%;   
     }
     #casa0,
     #casa1,
@@ -177,7 +177,7 @@
     #score{
         height: 20%;
         width: 30%;
-        margin-bottom: 20%;
+        margin-bottom: 5%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
@@ -187,7 +187,14 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    #reset,
+    #reset-score {
+        width: 150px;
+        height: 60px;
+        background-color: rgba(71, 197, 247, 0.623); 
+        font-size: 20px; 
     }
 }
 @media (min-width:540px) and (max-width: 915px){
