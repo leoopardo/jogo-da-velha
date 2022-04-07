@@ -39,12 +39,6 @@ class jogo_da_velha {
             return placarO.innerText = Number(placarO.innerText) + 1;; 
         };
     }
-    // INTELIGENCIA ARTIFICIAL
-    inteligencia(array, ){
-        if(array[0] === 'X'){
-            array[4] = 'O'
-        }  
-}
 }
 
 
