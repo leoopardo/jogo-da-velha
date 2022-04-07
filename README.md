@@ -1,2 +1,2 @@
-# tic-tac-toe-project
-## https://leoopardo.github.io/tic-tac-toe-project/
+# jogo-da-velha
+## https://leoopardo.github.io/jogo-da-velha/
